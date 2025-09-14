@@ -24,7 +24,7 @@ public class Coffee {
             return;
         }
 
-        System.out.println(" Votre café est en cours de préparation. \n Veuillez patienter \n");
+        System.out.println("Votre café est en cours de préparation. \n Veuillez patienter \n");
 
         for (int i = 0; i < 10; i++) {
             System.out.print(Color.YELLOW + point + " " + Color.RESET);
@@ -39,7 +39,7 @@ public class Coffee {
         stock.setQuantity(stock.getQuantity() + quantity);
         stock.setMoney(stock.getMoney() + price);
 
-        System.out.print(Color.GREEN + " Votre café est prêt \n Bonne dégustation" + Color.RESET);
+        System.out.print(Color.GREEN + " \n Votre café est prêt \n Bonne dégustation \n " + Color.RESET);
 
     }
 }
