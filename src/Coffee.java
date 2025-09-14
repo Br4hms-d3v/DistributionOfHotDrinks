@@ -31,7 +31,7 @@ public class Coffee {
             Thread.sleep(300);
         }
 
-        Stock.deductStock(needWater, needSugar, needBeans, needCup, needSpoon, quantity, price, point, stock);
+        Stock.deductStock(needWater, needSugar, needBeans, needCup, needSpoon, quantity, price, stock);
 
         System.out.print(Color.GREEN + " \n Votre café est prêt \n Bonne dégustation \n " + Color.RESET);
 

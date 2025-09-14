@@ -31,7 +31,7 @@ public class LongCoffee {
             Thread.sleep(350);
         }
 
-        Stock.deductStock(needWater, needSugar, needBeans, needCup, needSpoon, quantity, price, point, stock);
+        Stock.deductStock(needWater, needSugar, needBeans, needCup, needSpoon, quantity, price, stock);
 
         System.out.print(Color.GREEN + " \n Votre café long est prêt \n Bonne dégustation \n " + Color.RESET);
 
