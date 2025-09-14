@@ -7,6 +7,7 @@ public class Menu {
     private final Coffee coffee = new Coffee(stock);
     private final LongCoffee longCoffee = new LongCoffee(stock);
     private final Expresso expresso = new Expresso(stock);
+    private final ChocolateMilk chocolatMilk = new ChocolateMilk(stock);
 
     public void displayMenu() throws InterruptedException {
 
@@ -37,6 +38,7 @@ public class Menu {
                     expresso.make();
                     break;
                 case 4:
+                    chocolatMilk.make();
                     break;
                 case 5:
                     break;

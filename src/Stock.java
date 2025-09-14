@@ -37,6 +37,16 @@ public class Stock {
         stock.setMoney(stock.getMoney() + price);
     }
 
+    static void deductStockChocolate(int needWater, int needSugar, int powderChoco, int needCup, int needSpoon, int quantity, double price, Stock stock) {
+        stock.setWater(stock.getWater() - needWater);
+        stock.setSugar(stock.getSugar() - needSugar);
+        stock.setPowderChoco(stock.getPowderChoco() - powderChoco);
+        stock.setCups(stock.getCups() - needCup);
+        stock.setSpoons(stock.getSpoons() - needSpoon);
+        stock.setQuantity(stock.getQuantity() + quantity);
+        stock.setMoney(stock.getMoney() + price);
+    }
+
 
     public int getWater() {
         return water;
