@@ -24,10 +24,10 @@ public class Stock {
         System.out.println("Il y a " + cups + " goblets");
         System.out.println("Il y a " + spoons + " cuillères \n ");
         System.out.println("Vous avez vendu : " + quantity + " boissons");
-        System.out.println("Vous avez gagné : " + money + " € \n ");
+        System.out.println("Vous avez gagné : " + String.format("%.2f", money) + " € \n ");
     }
 
-    static void deductStock(int needWater, int needSugar, int needBeans, int needCup, int needSpoon, int quantity, double price, Stock stock)  {
+    static void deductStock(int needWater, int needSugar, int needBeans, int needCup, int needSpoon, int quantity, double price, Stock stock) {
         stock.setWater(stock.getWater() - needWater);
         stock.setSugar(stock.getSugar() - needSugar);
         stock.setBeans(stock.getBeans() - needBeans);
