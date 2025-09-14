@@ -27,6 +27,17 @@ public class Stock {
         System.out.println("Vous avez gagné : " + money + " € \n ");
     }
 
+    static void deductStock(int needWater, int needSugar, int needBeans, int needCup, int needSpoon, int quantity, double price, char point, Stock stock)  {
+        stock.setWater(stock.getWater() - needWater);
+        stock.setSugar(stock.getSugar() - needSugar);
+        stock.setBeans(stock.getBeans() - needBeans);
+        stock.setCups(stock.getCups() - needCup);
+        stock.setSpoons(stock.getSpoons() - needSpoon);
+        stock.setQuantity(stock.getQuantity() + quantity);
+        stock.setMoney(stock.getMoney() + price);
+    }
+
+
     public int getWater() {
         return water;
     }

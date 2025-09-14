@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Menu {
 
 
-    private Stock stock = new Stock();
-    private Coffee coffee = new Coffee(stock);
+    private final Stock stock = new Stock();
+    private final Coffee coffee = new Coffee(stock);
+    private final LongCoffee longCoffee = new LongCoffee(stock);
 
     public void displayMenu() throws InterruptedException {
 
@@ -29,6 +30,7 @@ public class Menu {
                     coffee.make();
                     break;
                 case 2:
+                    longCoffee.make();
                     break;
                 case 3:
                     break;
