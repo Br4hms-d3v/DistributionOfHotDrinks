@@ -47,7 +47,31 @@ public class Stock {
         stock.setMoney(stock.getMoney() + price);
     }
 
+    void fillWater() {
+        this.water = 2000;
+    }
 
+    void fillSugar() {
+        this.sugar = 500;
+    }
+
+    void fillBeans() {
+        this.beans = 1000;
+    }
+
+    void fillPowderChoco() {
+        this.powderChoco = 1000;
+    }
+
+    void fillCups() {
+        this.cups = 250;
+    }
+
+    void fillSpoons() {
+        this.spoons = 250;
+    }
+
+    // Getters and Setters
     public int getWater() {
         return water;
     }

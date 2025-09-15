@@ -27,16 +27,22 @@ public class FIll {
 
             switch (fillChoose) {
                 case 1:
+                    stock.fillWater();
                     break;
                 case 2:
+                    stock.fillSugar();
                     break;
                 case 3:
+                    stock.fillBeans();
                     break;
                 case 4:
+                    stock.fillPowderChoco();
                     break;
                 case 5:
+                    stock.fillCups();
                     break;
                 case 6:
+                    stock.fillSpoons();
                     break;
                 case 7:
                     filling = false;
