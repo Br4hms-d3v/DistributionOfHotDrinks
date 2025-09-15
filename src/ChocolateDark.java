@@ -33,7 +33,7 @@ public class ChocolateDark {
 
         Stock.deductStockChocolate(needWater, needSugar, powderChoco, needCup, needSpoon, quantity, price, stock);
 
-        System.out.print(Color.GREEN + " \n Votre chocolat noir est prêt \n Bonne dégustation \n " + Color.RESET);
+        System.out.print(Color.PURPLE + " \n Votre chocolat noir est prêt \n Bonne dégustation \n " + Color.RESET);
 
     }
 }

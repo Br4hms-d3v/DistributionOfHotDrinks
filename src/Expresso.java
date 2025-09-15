@@ -33,7 +33,7 @@ public class Expresso {
 
         Stock.deductStock(needWater, needSugar, needBeans, needCup, needSpoon, quantity, price, stock);
 
-        System.out.print(Color.GREEN + " \n Votre Expresso est prêt \n Bonne dégustation \n " + Color.RESET);
+        System.out.print(Color.PURPLE + " \n Votre Expresso est prêt \n Bonne dégustation \n " + Color.RESET);
 
     }
 }
