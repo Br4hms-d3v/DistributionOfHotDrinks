@@ -9,6 +9,7 @@ public class Menu {
     private final Expresso expresso = new Expresso(stock);
     private final ChocolateMilk chocolateMilk = new ChocolateMilk(stock);
     private final ChocolateDark chocolateDark = new ChocolateDark(stock);
+    private final FIll fill = new FIll(stock);
 
     public void displayMenu() throws InterruptedException {
 
@@ -48,6 +49,7 @@ public class Menu {
                     stock.check();
                     break;
                 case 7:
+                    fill.fillTheStock();
                     break;
                 default:
             }
